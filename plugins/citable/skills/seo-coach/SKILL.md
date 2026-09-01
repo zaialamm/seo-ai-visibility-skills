@@ -7,7 +7,7 @@ description: "Not sure which Citable workflow to run first? Answer three questio
 
 ## Goal
 
-Pick the right workflow, not run all of them. This skill spends nothing: it asks what the user is trying to do, chooses one of the seven paid workflows, tells them what it will cost, and hands off.
+Pick the right workflow, not run all of them. This skill spends nothing: it asks what the user is trying to do, chooses one of the eight paid workflows, tells them what it will cost, and hands off.
 
 ## Required inputs
 
@@ -26,6 +26,7 @@ Ask, in one message, only what is missing:
 | The user says | Run | Typical cost |
 |---|---|---|
 | "How do I use this?", a first session, or they have data (a domain, a list, a URL) but no goal yet | `get-started` — setup, the input → tool map, spend rules | free |
+| "Just do everything" / a full engagement with a budget | `full-check` — baseline → fixes → demand data → verify, one consent | $0.05 / ~$0.27 / ~$1.15 by tier |
 | "AI never mentions us" and they have a buyer question in mind | `ai-visibility-check` | $0.05 per engine per question |
 | "AI never mentions us" but they don't know what buyers ask | `competitor-citations` on a rival — it returns the observed prompts | ~$0.65 |
 | "We don't know what to write" | `keyword-brief` on their topic | ~$0.05 |

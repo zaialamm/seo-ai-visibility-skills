@@ -2,7 +2,7 @@
 
 **Other skill packs tell your agent what to do. These come with the data.**
 
-Thirteen skills that make a site rank in Google and get cited by ChatGPT, Claude, and Perplexity. Six are free and work offline on your own source. Seven are backed by live data — keyword volumes, Google rankings, backlinks, AI-citation checks — that your agent **buys per check** through [Citable](https://citable.run): $0.005–0.30 per call in USDC on Solana via [x402](https://www.x402.org). No API key, no account, no subscription, nothing stored about you. Failed calls are never charged, and every paid result carries its on-chain receipt.
+Fourteen skills that make a site rank in Google and get cited by ChatGPT, Claude, and Perplexity. Six are free and work offline on your own source. Eight are backed by live data — keyword volumes, Google rankings, backlinks, AI-citation checks — that your agent **buys per check** through [Citable](https://citable.run): $0.005–0.30 per call in USDC on Solana via [x402](https://www.x402.org). No API key, no account, no subscription, nothing stored about you. Failed calls are never charged, and every paid result carries its on-chain receipt.
 
 That last part is the difference. A prompt-only "keyword research" skill has no volumes and a prompt-only "rank tracking" skill has no SERPs — they either ask you for an Ahrefs login or guess. These skills check.
 
@@ -46,6 +46,7 @@ The plugin runs the [`citable-mcp`](https://www.npmjs.com/package/citable-mcp) s
 
 | Skill | What it does | Cost |
 |---|---|---|
+| `/citable:full-check` | End to end: baseline → fixes → demand data → verify → monitoring, one budget consent | $0.05–1.15 by tier |
 | `/citable:citability-audit` | Audit a page, apply the ordered fix list in your code, re-audit | $0.01 per audit |
 | `/citable:ai-visibility-check` | Which AI engines cite a domain for *your* question, who they cite instead | $0.05–0.30 |
 | `/citable:keyword-brief` | Seed → real volumes, difficulty, intent, current rank | ~$0.05–0.07 |

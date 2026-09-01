@@ -46,6 +46,7 @@ No SOL needed: the x402 facilitator covers network fees. Set env vars in the she
 | `/citable:schema-markup` | JSON-LD matching what the page visibly is — no fabricated ratings | free |
 | `/citable:geo-rewrite` | Restructure a page so answer engines can lift and cite it | free |
 | `/citable:ai-crawler-access` | Explicit per-bot robots.txt decisions for the AI crawlers | free |
+| `/citable:full-check` | The whole engagement: baseline → fixes → demand data → verify → monitoring, one budget consent | $0.05 / ~$0.27 / ~$1.15 by tier |
 | `/citable:citability-audit` | Audit a page, apply the ordered fix list in your code, re-audit | $0.01 per audit |
 | `/citable:ai-visibility-check` | Which AI engines cite a domain for *your* question, who they cite instead, which pages already work | $0.05–0.30 |
 | `/citable:keyword-brief` | Seed → real volumes, difficulty, intent, current rank | ~$0.05–0.07 |
