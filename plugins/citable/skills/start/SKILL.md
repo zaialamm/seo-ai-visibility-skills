@@ -39,6 +39,7 @@ Then choose one row. State the skill, why it fits their answer, the cost, and wh
 | "A competitor is everywhere" in AI answers | `competitor-citations` | ~$0.65 |
 | "Who are we really up against" / sizing a market | `competitive-landscape` on the set | ~$0.07–0.17 per domain |
 | "Are we going up or down" / "track our rankings" | `rank-tracking` — keyword list + history in the repo, or `citable_domain_history` for the domain trend | $0.012 per keyword per run · $0.03 |
+| "Keep watching it" / after any fix ships | `monitor` — standing weekly rank + AI-citation runs, diffed, hard budget | ≈$0.60–2.10 per run |
 | "Nobody finds us" and they name a page | `citability-audit` on that page first — cheapest signal | $0.01 |
 | "Nobody finds us" and no page in mind | `citability-audit` on the homepage, then `keyword-brief` | ~$0.07 |
 

@@ -53,6 +53,7 @@ No SOL needed: the x402 facilitator covers network fees. Set env vars in the she
 | `/citable:keyword-clustering` | Keyword list → page groups, build order, cannibalization check against current rankings | $0.03 per 20 keywords |
 | `/citable:competitor-citations` | One rival → the prompts AI cites them for, the pages doing the work, share of voice vs you | ~$0.65 |
 | `/citable:rank-tracking` | Keyword list → positions per run, history kept in your repo, a diff of what moved; schedule it where the agent lives | $0.012 per keyword per run |
+| `/citable:monitor` | Standing weekly watch: rank + AI-citation runs diffed against last week, budget-capped | ≈$0.60–2.10 per run |
 | `/citable:competitive-landscape` | 2–5 rival domains → organic footprint, the keywords each wins, where their links come from | ~$0.07–0.17 per domain |
 
 ## Tools

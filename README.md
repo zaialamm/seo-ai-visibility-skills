@@ -2,7 +2,7 @@
 
 **Other skill packs tell your agent what to do. These come with the data.**
 
-Thirteen skills that make a site rank in Google and get cited by ChatGPT, Claude, and Perplexity. Five are free and work offline on your own source. Eight are backed by live data — keyword volumes, Google rankings, backlinks, AI-citation checks — that your agent **buys per check** through [Citable](https://citable.run): $0.005–0.30 per call in USDC on Solana via [x402](https://www.x402.org). No API key, no account, no subscription, nothing stored about you. Failed calls are never charged, and every paid result carries its on-chain receipt.
+Fourteen skills that make a site rank in Google and get cited by ChatGPT, Claude, and Perplexity. Five are free and work offline on your own source. Nine are backed by live data — keyword volumes, Google rankings, backlinks, AI-citation checks — that your agent **buys per check** through [Citable](https://citable.run): $0.005–0.30 per call in USDC on Solana via [x402](https://www.x402.org). No API key, no account, no subscription, nothing stored about you. Failed calls are never charged, and every paid result carries its on-chain receipt.
 
 That last part is the difference. A prompt-only "keyword research" skill has no volumes and a prompt-only "rank tracking" skill has no SERPs — they either ask you for an Ahrefs login or guess. These skills check.
 
@@ -58,6 +58,7 @@ The plugin runs the [`citable-mcp`](https://www.npmjs.com/package/citable-mcp) s
 | `/citable:keyword-clustering` | Keyword list → page groups, build order, cannibalization check | $0.03 per 20 keywords |
 | `/citable:competitor-citations` | One rival → the prompts AI cites them for, share of voice vs you | ~$0.65 |
 | `/citable:rank-tracking` | Keyword list → positions per run, history diffed in your repo; schedule it | $0.012 per keyword per run |
+| `/citable:monitor` | Standing weekly watch: rank + AI-citation runs diffed against last week, history in repo, hard per-run budget | ≈$0.60–2.10 per run |
 | `/citable:competitive-landscape` | 2–5 rivals → organic footprint, winning keywords, link sources | ~$0.07–0.17 per domain |
 
 Every paid skill states its price before spending and reports the running total. `CITABLE_MAX_PRICE` (default 0.30) refuses any single call above it before anything is signed.

@@ -37,7 +37,7 @@ Standard and full need the user-written buyer question; without one, run page ti
 3. **Demand read** (standard and up). From the keyword research: which keywords the page should target, where the domain already ranks, and — full tier — what AI cites the rival for (`competitor-citations`, ~$0.65) and what that implies for this site's pages.
 4. **Deploy gap.** Verification only means anything against the live (or preview) URL. If deploy happens in-session, continue; if not, report the baseline + applied fixes and say exactly what to run after deploy: re-audit ($0.01) and, standard and up, the same visibility check ($0.05/engine).
 5. **Verify.** Re-run the audit and the visibility question. Report before → after: score delta, engines that cite the domain now versus before, positions if enough time has passed for them to mean anything (say so if it hasn't).
-6. **Leave monitoring behind.** Offer `rank-tracking` on the keywords chosen in step 3 ($0.012 per keyword per run, scheduled where the agent lives). That is the standing version of everything this run measured once.
+6. **Leave monitoring behind.** Offer the `monitor` skill on the keywords and question from this run — a scheduled weekly rank + AI-citation watch with a hard per-run budget. That is the standing version of everything this run measured once.
 
 Close with the report: baseline, changes, after, total spent (sum the `_payment.transaction` receipts), and the one next thing worth paying for.
 
