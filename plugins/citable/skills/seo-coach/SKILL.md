@@ -27,7 +27,7 @@ Ask, in one message, only what is missing:
 |---|---|---|
 | "How do I use this?", a first session, or they have data (a domain, a list, a URL) but no goal yet | `get-started` — setup, the input → tool map, spend rules | free |
 | "Just do everything" / a full engagement with a budget | `full-check` — baseline → fixes → demand data → verify, one consent | $0.05 / ~$0.27 / ~$1.15 by tier |
-| "AI never mentions us" and they have a buyer question in mind | `ai-visibility-check` | $0.05 per engine per question |
+| "AI never mentions us" and they have a buyer question in mind | `ai-check` | $0.05 per engine per question |
 | "AI never mentions us" but they don't know what buyers ask | `competitor-citations` on a rival — it returns the observed prompts | ~$0.65 |
 | "We don't know what to write" | `keyword-brief` on their topic | ~$0.05 |
 | "We have a keyword list" or "we rank with the wrong page" | `keyword-clustering` | $0.03 per 20 keywords |
@@ -49,5 +49,5 @@ When two apply, choose the cheaper one first and say what the second would add.
 ## Guardrails
 
 - This skill never calls a paid tool. If the user says "just do it", still name the skill and the cost in the same message you start it.
-- Never invent a buyer prompt to unblock the `ai-visibility-check` route; send them to `competitor-citations` instead.
+- Never invent a buyer prompt to unblock the `ai-check` route; send them to `competitor-citations` instead.
 - Do not route to workflows Citable does not have (link building, local SEO, site-wide crawls) — say plainly that those are not covered yet.

@@ -1,5 +1,5 @@
 ---
-name: ai-visibility-check
+name: ai-check
 description: "Check whether AI engines (ChatGPT, Claude, Gemini, Perplexity) cite a domain for a buyer question the user supplies, who they cite instead, and which of the domain's pages AI already cites. Never invents the prompt."
 ---
 

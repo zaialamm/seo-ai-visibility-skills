@@ -25,7 +25,7 @@ Make a page liftable. Answer engines quote sections that stand alone: a heading 
 
 ## Paid verification (optional)
 
-The rewrite's effect is measurable only against a real buyer question. If the user has one, `citable_ai_visibility` (via the `ai-visibility-check` skill) shows which engines cite the domain for it — $0.05 per engine, checked before and after deploy. Say the price and ask first. If the user has no question, `citable_cited_prompts` on a competitor ($0.25) returns observed ones — never invent the question yourself.
+The rewrite's effect is measurable only against a real buyer question. If the user has one, `citable_ai_visibility` (via the `ai-check` skill) shows which engines cite the domain for it — $0.05 per engine, checked before and after deploy. Say the price and ask first. If the user has no question, `citable_cited_prompts` on a competitor ($0.25) returns observed ones — never invent the question yourself.
 
 ## Guardrails
 

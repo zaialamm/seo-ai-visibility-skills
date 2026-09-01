@@ -64,7 +64,7 @@ Country and language default to `us` / `en`. For any other market pass both (`co
 
 ## Workflows on top of these tools
 
-`seo-coach` (free) routes a symptom to one of `citability-audit`, `keyword-brief`, `keyword-clustering`, `ai-visibility-check`, `competitor-citations`, `competitive-landscape`, `rank-tracking`, or `full-check`, which chains them end to end under one budget consent. Use those when the user has a goal; use the table above when the user has an input. Four free build skills — `llms-txt`, `schema-markup`, `geo-rewrite`, `ai-crawler-access` — fix a site without spending anything; `citability-audit` verifies the result for $0.01.
+`seo-coach` (free) routes a symptom to one of `citability-audit`, `keyword-brief`, `keyword-clustering`, `ai-check`, `competitor-citations`, `competitive-landscape`, `rank-tracking`, or `full-check`, which chains them end to end under one budget consent. Use those when the user has a goal; use the table above when the user has an input. Four free build skills — `llms-txt`, `schema-markup`, `geo-rewrite`, `ai-crawler-access` — fix a site without spending anything; `citability-audit` verifies the result for $0.01.
 
 ## Guardrails
 

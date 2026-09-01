@@ -48,7 +48,7 @@ The plugin runs the [`citable-mcp`](https://www.npmjs.com/package/citable-mcp) s
 |---|---|---|
 | `/citable:full-check` | End to end: baseline → fixes → demand data → verify → monitoring, one budget consent | $0.05–1.15 by tier |
 | `/citable:citability-audit` | Audit a page, apply the ordered fix list in your code, re-audit | $0.01 per audit |
-| `/citable:ai-visibility-check` | Which AI engines cite a domain for *your* question, who they cite instead | $0.05–0.30 |
+| `/citable:ai-check` | Which AI engines cite a domain for *your* question, who they cite instead | $0.05–0.30 |
 | `/citable:keyword-brief` | Seed → real volumes, difficulty, intent, current rank | ~$0.05–0.07 |
 | `/citable:keyword-clustering` | Keyword list → page groups, build order, cannibalization check | $0.03 per 20 keywords |
 | `/citable:competitor-citations` | One rival → the prompts AI cites them for, share of voice vs you | ~$0.65 |
