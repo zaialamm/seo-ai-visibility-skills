@@ -15,7 +15,13 @@ That last part is the difference. A prompt-only "keyword research" skill has no 
 /plugin install citable@seo-ai-visibility-skills
 ```
 
-**Codex**
+**Any agent (Codex, Cursor, Gemini CLI, Amp, 17+) — via [skills.sh](https://skills.sh):**
+
+```
+npx skills add zaialamm/seo-ai-visibility-skills
+```
+
+Installs all 13 skills into `.agents/skills/` for every detected agent. The MCP server still needs one line — **Codex**:
 
 ```
 codex mcp add citable -- npx -y citable-mcp
