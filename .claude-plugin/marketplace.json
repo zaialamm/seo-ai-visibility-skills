@@ -1,0 +1,16 @@
+{
+  "name": "seo-ai-visibility-skills",
+  "owner": {
+    "name": "Citable",
+    "url": "https://citable.run"
+  },
+  "description": "SEO and AI-visibility skills for coding agents — with the data included, pay per check.",
+  "plugins": [
+    {
+      "name": "citable",
+      "source": "./plugins/citable",
+      "description": "13 SEO and AI-visibility skills: 6 free (llms.txt, schema markup, GEO rewrite, AI-crawler access, coach, onboarding) + 7 data-backed workflows that pay per check in USDC on Solana via x402 — $0.005–0.30 per call, no API key, nothing stored about you.",
+      "category": "SEO"
+    }
+  ]
+}

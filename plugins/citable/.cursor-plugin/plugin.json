@@ -1,0 +1,24 @@
+{
+  "name": "citable",
+  "version": "0.6.0",
+  "description": "SEO and AI-visibility data your agent can buy. Keyword data, citability audits, AI-citation checks, rank checks \u2014 paid per call in USDC on Solana. No API key, nothing stored about you.",
+  "author": {
+    "name": "Citable",
+    "email": "hello@citable.run"
+  },
+  "homepage": "https://citable.run",
+  "repository": "https://github.com/zaialamm/Citable",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "ai-visibility",
+    "geo",
+    "keyword-research",
+    "site-audit",
+    "rank-check",
+    "x402",
+    "solana"
+  ],
+  "skills": "skills",
+  "mcpServers": "mcp.json"
+}
