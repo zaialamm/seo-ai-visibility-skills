@@ -6,6 +6,8 @@ Fourteen skills that make a site rank in Google and get cited by ChatGPT, Claude
 
 That last part is the difference. A prompt-only "keyword research" skill has no volumes and a prompt-only "rank tracking" skill has no SERPs — they either ask you for an Ahrefs login or guess. These skills check.
 
+See it run for real: [examples/citable.run-full-check.md](examples/citable.run-full-check.md) — the pack on its own nine-day-old domain, $0.16 in checks, zeros included.
+
 ## Install
 
 **Claude Code**
