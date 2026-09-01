@@ -1,13 +1,13 @@
 {
   "name": "citable",
-  "version": "0.6.0",
-  "description": "SEO and AI-visibility data your agent can buy. Keyword data, citability audits, AI-citation checks, rank checks \u2014 $0.005\u20130.30 per call in USDC on Solana. No API key, nothing stored about you.",
+  "version": "0.7.0",
+  "description": "SEO and AI-visibility data your agent can buy. Keyword data, citability audits, AI-citation checks, rank checks — $0.005–0.30 per call in USDC on Solana. No API key, nothing stored about you.",
   "author": {
     "name": "Citable",
     "url": "https://citable.run"
   },
   "homepage": "https://citable.run",
-  "repository": "https://github.com/zaialamm/Citable",
+  "repository": "https://github.com/zaialamm/seo-ai-visibility-skills",
   "license": "MIT",
   "keywords": [
     "seo",
@@ -31,8 +31,8 @@
   },
   "interface": {
     "displayName": "Citable",
-    "shortDescription": "SEO and AI-visibility data agents can buy. Your agent pays per check in USDC \u2014 no account, no API key.",
-    "longDescription": "Citable gives your agent real SEO and AI-visibility data one call at a time: keyword suggestions and metrics, citability audits with an ordered fix list, which AI engines cite a domain for a question and who they cite instead, the pages AI already cites, and Google rank checks. Each call is paid in USDC on Solana over x402 from a local wallet, $0.005\u20130.30 per call. Failed calls are never charged.",
+    "shortDescription": "SEO and AI-visibility data agents can buy. Your agent pays per check in USDC — no account, no API key.",
+    "longDescription": "Citable gives your agent real SEO and AI-visibility data one call at a time: keyword suggestions and metrics, citability audits with an ordered fix list, which AI engines cite a domain for a question and who they cite instead, the pages AI already cites, and Google rank checks. Each call is paid in USDC on Solana over x402 from a local wallet, $0.005–0.30 per call. Failed calls are never charged.",
     "developerName": "Citable",
     "category": "Productivity",
     "capabilities": [
