@@ -41,7 +41,7 @@ No SOL needed: the x402 facilitator covers network fees. Set env vars in the she
 
 | Skill | What it does | Cost |
 |---|---|---|
-| `/citable:get-started` | Setup, the input → tool map for all 17 paid tools, spend rules, how to read results — read first | free |
+| `/citable:start` | The front door: wallet setup, symptom → workflow routing, the input → tool map for all 17 paid tools, spend rules — read first | free |
 | `/citable:llms-txt` | Write a correct `/llms.txt` from the real site source | free |
 | `/citable:schema-markup` | JSON-LD matching what the page visibly is — no fabricated ratings | free |
 | `/citable:geo-rewrite` | Restructure a page so answer engines can lift and cite it | free |
@@ -54,7 +54,6 @@ No SOL needed: the x402 facilitator covers network fees. Set env vars in the she
 | `/citable:competitor-citations` | One rival → the prompts AI cites them for, the pages doing the work, share of voice vs you | ~$0.65 |
 | `/citable:rank-tracking` | Keyword list → positions per run, history kept in your repo, a diff of what moved; schedule it where the agent lives | $0.012 per keyword per run |
 | `/citable:competitive-landscape` | 2–5 rival domains → organic footprint, the keywords each wins, where their links come from | ~$0.07–0.17 per domain |
-| `/citable:seo-coach` | Three questions → the one workflow to run first, with its cost | free |
 
 ## Tools
 

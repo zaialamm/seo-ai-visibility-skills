@@ -1,13 +1,13 @@
 ---
-name: get-started
-description: "How to use Citable well: set up the wallet, pick the right tool for the input you have (a topic, a keyword list, a domain, a URL, a buyer question), keep spend low, and read the receipts. Free — read this before the first paid call."
+name: start
+description: "Start here, free: set up the wallet once, then get routed. A problem ('AI never mentions us') goes through three questions to the one workflow that fits, with its cost; data in hand (a topic, a keyword list, a domain, a URL) maps straight to the right tool. Spend rules and how to read results included — read before the first paid call."
 ---
 
-# Get started with Citable
+# Start
 
 ## Goal
 
-Make the first paid call the right one. Citable is 17 paid tools behind two free ones (`citable_prices`, `citable_connect`), and the usual mistakes are cheap individually but add up: sending a domain to a keyword tool, paying for three calls where one bundle is cheaper, running a $0.25 call to answer a $0.03 question. This skill spends nothing.
+One front door. Set the wallet up once, then pick the right next thing exactly once: a symptom routes to one workflow, an input maps to one tool. Citable is 17 paid tools behind two free ones (`citable_prices`, `citable_connect`), and the usual mistakes are cheap individually but add up: sending a domain to a keyword tool, paying for three calls where one bundle is cheaper, running a $0.25 call to answer a $0.03 question — or running every workflow when one was the answer. This skill spends nothing.
 
 ## Setup (once)
 
@@ -19,7 +19,32 @@ Make the first paid call the right one. Citable is 17 paid tools behind two free
 
 Prices in tool descriptions are what is charged; if they differ from `citable_prices`, `citable_prices` wins. Prices change — quote from it, not from memory.
 
-## Which tool for what you have
+## Have a problem, not a plan? Route it
+
+Ask, in one message, only what is missing:
+
+1. What do you sell, and to whom? (one line)
+2. Your domain — and the page you care about most, if there is one.
+3. What is wrong today? Pick the closest: *nobody finds us · AI never mentions us · we don't know what to write · a competitor is everywhere · we rank but the wrong page shows up.*
+
+Then choose one row. State the skill, why it fits their answer, the cost, and what they will get back in one sentence. Ask for a go, invoke it — do not re-explain it — and after it finishes suggest at most one follow-up, with its cost. When two rows apply, choose the cheaper one first and say what the second would add.
+
+| The user says | Run | Typical cost |
+|---|---|---|
+| "Just do everything" / a full engagement with a budget | `full-check` — baseline → fixes → demand data → verify, one consent | $0.05 / ~$0.27 / ~$1.15 by tier |
+| "AI never mentions us" and they have a buyer question in mind | `ai-check` | $0.05 per engine per question |
+| "AI never mentions us" but they don't know what buyers ask | `competitor-citations` on a rival — it returns the observed prompts | ~$0.65 |
+| "We don't know what to write" | `keyword-brief` on their topic | ~$0.05 |
+| "We have a keyword list" or "we rank with the wrong page" | `keyword-clustering` | $0.03 per 20 keywords |
+| "A competitor is everywhere" in AI answers | `competitor-citations` | ~$0.65 |
+| "Who are we really up against" / sizing a market | `competitive-landscape` on the set | ~$0.07–0.17 per domain |
+| "Are we going up or down" / "track our rankings" | `rank-tracking` — keyword list + history in the repo, or `citable_domain_history` for the domain trend | $0.012 per keyword per run · $0.03 |
+| "Nobody finds us" and they name a page | `citability-audit` on that page first — cheapest signal | $0.01 |
+| "Nobody finds us" and no page in mind | `citability-audit` on the homepage, then `keyword-brief` | ~$0.07 |
+
+Building or fixing the site itself is free: `llms-txt`, `schema-markup`, `geo-rewrite`, and `ai-crawler-access` work on the source without spending anything; `citability-audit` proves the result for $0.01.
+
+## Have data in hand? Map it to a tool
 
 Pick by the *input*, not by the question.
 
@@ -62,13 +87,11 @@ Country and language default to `us` / `en`. For any other market pass both (`co
 - `position: null` from `rank_check` means outside the checked window (default 20), not unranked.
 - `cited_prompts`, `top_cited_pages`, `ai_mentions_trend` and `ai_share_of_voice` read an index of observed AI answers; `ai_mentions_trend` data begins 2025-08. A domain with no rows is unobserved, not penalised.
 
-## Workflows on top of these tools
-
-`seo-coach` (free) routes a symptom to one of `citability-audit`, `keyword-brief`, `keyword-clustering`, `ai-check`, `competitor-citations`, `competitive-landscape`, `rank-tracking`, or `full-check`, which chains them end to end under one budget consent. Use those when the user has a goal; use the table above when the user has an input. Four free build skills — `llms-txt`, `schema-markup`, `geo-rewrite`, `ai-crawler-access` — fix a site without spending anything; `citability-audit` verifies the result for $0.01.
-
 ## Guardrails
 
+- Routing spends nothing. If the user says "just do it", still name the skill and the cost in the same message you start it.
 - Never generate a buyer prompt for `ai_visibility` or `citability_report`. If the user has none, `cited_prompts` on a competitor returns real ones.
 - Never send a domain to a seed tool, or a bare domain to `onpage_audit`.
 - Never quote a price from memory when `citable_prices` is one free call away.
 - Do not spend to answer a question the user has not asked.
+- Do not route to workflows Citable does not have (link building, local SEO, site-wide crawls) — say plainly that those are not covered yet.
